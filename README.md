@@ -8,3 +8,8 @@
 ## Run Project
 - npm install && npm run dev
 - php artisan serve
+
+## Database Migration
+- cp env.example .env
+- php artisan key:generate
+- php artisan migrate
